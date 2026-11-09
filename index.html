@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Anuario 2026 · I.E. Eugenio Ferro Falla</title>
+
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Great+Vibes&family=Playfair+Display:wght@600;700;800&family=Lora:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <!-- Barra superior -->
+    <header class="bar">
+        <span class="brand">Anuario 2026</span>
+        <select id="jump" aria-label="Ir a un estudiante"></select>
+    </header>
+
+    <!-- Libro digital -->
+    <main id="stage">
+        <div id="scaler">
+            <div id="book"></div>
+        </div>
+    </main>
+
+    <!-- Navegación -->
+    <nav class="nav">
+        <button id="prev" type="button" aria-label="Página anterior">‹</button>
+        <span id="count"></span>
+        <button id="next" type="button" aria-label="Página siguiente">›</button>
+    </nav>
+
+    <!-- Archivos JavaScript -->
+    <script src="./data.js"></script>
+    <script src="./archivos.js"></script>
+    <script src="./script.js"></script>
+
+</body>
+</html>
